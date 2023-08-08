@@ -1,1 +1,72 @@
 This place is under new management by the order of peaky blinders
+URK20AI1023@WS22Dl06040 MINGW64 ~
+$ cd git_demo1
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1
+$ pwd
+/z/git_demo1
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1
+$ mkdir changes
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1
+$ cd changes
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes
+$ pwd
+/z/git_demo1/changes
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes
+$ git init
+Initialized empty Git repository in //192.168.12.5/URK20AI1023$/git_demo1/changes/.git/
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ git pull hhttps://github.com/SABESHJACKSSIVA/jacks_server.git
+fatal: protocol 'https' is not supported
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ git pull ^[[200~gh repo clone SABESHJACKSSIVA/jacks_server~
+fatal: invalid refspec 'SABESHJACKSSIVA/jacks_server~'
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ git pull hhttps://github.com/SABESHJACKSSIVA/jacks_server.git
+fatal: protocol 'https' is not supported
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ sudo git pull
+bash: sudo: command not found
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ git pull https://github.com/SABESHJACKSSIVA/jacks_server.git
+fatal: protocol 'https' is not supported
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ git pull hhttps://github.com/SABESHJACKSSIVA/jacks_server
+git: 'puull' is not a git command. See 'git --help'.
+
+The most similar command is
+        pull
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ git pull https://github.com/SABESHJACKSSIVA/jacks_server.git
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.27 KiB | 10.00 KiB/s, done.
+From https://github.com/SABESHJACKSSIVA/jacks_server
+ * branch            HEAD       -> FETCH_HEAD
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ c:/wimdows/notepad jacks_server
+bash: c:/wimdows/notepad: No such file or directory
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ pwd
+/z/git_demo1/changes
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$ ^C
+
+URK20AI1023@WS22Dl06040 MINGW64 /z/git_demo1/changes (master)
+$
